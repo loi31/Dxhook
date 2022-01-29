@@ -16,7 +16,7 @@ local DaHoodSettings = {
     Prediction = 0.165,
 
     SilentAim = true,
-    PingBasedPred = false,
+    PingBasedPred = true,
     RandomHitbox = false,
     AimLock = false,
     AimLockKeybind = Enum.KeyCode.E,
