@@ -1,5 +1,5 @@
 -- // Dependencies
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/i-nasa/roblox/scripts/client-settings"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/loi31/Dxhook/main/client-settings"))()
 Aiming.TeamCheck(false)
 
 -- // Services
