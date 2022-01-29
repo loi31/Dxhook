@@ -45,9 +45,9 @@ local Aiming = {
     Enabled = false,
 
     ShowFOV = false,
-    FOV = 70,
-    FOVSides = 400,
-    FOVColour = Color3fromRGB(0, 0, 0),
+    FOV = 120,
+    FOVSides = 0,
+    FOVColour = Color3fromRGB(0.603921, 0.011764, 1),
     Filled = false,
     Transparency = 1,
     VisibleCheck = true,
@@ -92,7 +92,7 @@ end
 -- // Create circle
 local circle = Drawingnew("Circle")
 circle.Transparency = 1
-circle.Thickness = 2
+circle.Thickness = 1
 circle.Color = Aiming.FOVColour
 circle.Filled = false
 Aiming.FOVCircle = circle
