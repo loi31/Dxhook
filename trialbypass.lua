@@ -1,1 +1,1 @@
-print("trial working")
+game.ReplicatedStorage.MainEvent:FireServer("OneMoreTime")
